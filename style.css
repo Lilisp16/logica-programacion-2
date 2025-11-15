@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(25, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+     width: 100px; 
+     border-radius: 10px; }
+
+.container{
+    width: 400px;
+}
+
+.card{
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    background-color: #1e1e1edb;
+}
+
+.grados{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.imagen{
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    transition: transform 0.3s;
+}
+
+.imagen:hover{
+    transform: scale(1.05);
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form-input{
+    padding: 10px 15px; /* más alto y ancho */
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 180px; 
+    text-align: center;
+    font-size: 1rem;
+}
+
+.unidad{
+     color: #fff;
+    font-weight: bold;
+    border: 2px solid white;         
+    padding: 5px 10px;               
+    border-radius: 0 10px 10px 0;     
+    background-color: rgba(0,0,0,0.2); 
+    
+}
+
+.titulo{
+    color: #fff;
+}
+
+#btn{
+    display: block;        /* para que sea un bloque centrado */
+    width: 50%;            /* no ocupa todo el ancho */
+    margin: 20px auto 0;   /* margen superior y centrado horizontal */
+    padding: 4px 15px;     
+    border-radius: 12px;  
+    font-size: 1rem;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
